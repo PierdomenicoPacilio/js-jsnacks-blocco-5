@@ -53,6 +53,11 @@ a {
     padding: 15px 40px;
     text-decoration: none;
     color: white;
+    border-radius: 40px;
+}
+
+a:hover {
+    border-color: white;
 }
 
 .red {
