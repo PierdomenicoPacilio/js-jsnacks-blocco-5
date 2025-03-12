@@ -7,8 +7,15 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
+// FOR EACH
 people.forEach(element => console.log(element.name));
+
 console.log('---');
+
+// MAP
 console.log(people.map((element) => element.name));
+
 console.log('---');
+
+// FOR
 for(i = 0; i < people.length; i++) console.log(people[i].name);
