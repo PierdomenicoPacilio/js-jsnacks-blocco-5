@@ -21,3 +21,20 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+// FOR EACH
+let studentClass;
+students.forEach(element => {if(element.name === 'Marco Lanci') studentClass = element.class});
+console.log(studentClass);
+
+console.log('---');
+
+// FILTER
+console.log(students.filter(element => element.name === 'Marco Lanci')[0].class);
+
+console.log('---');
+
+// FOR
+studentClass = '';
+for (i = 0; i < students.length; i++) if (students[i].name === 'Marco Lanci') studentClass = students[i].class;
+console.log(studentClass);
