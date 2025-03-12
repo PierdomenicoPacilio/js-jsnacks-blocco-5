@@ -5,4 +5,6 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 
 names.forEach(element => console.log(element));
 console.log('---');
+console.log(names.map((element) => element));
+console.log('---');
 for(i = 0; i < names.length; i++) console.log(names[i]);

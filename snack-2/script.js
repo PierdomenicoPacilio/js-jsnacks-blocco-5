@@ -9,4 +9,6 @@ const people = [
 
 people.forEach(element => console.log(element.name));
 console.log('---');
+console.log(people.map((element) => element.name));
+console.log('---');
 for(i = 0; i < people.length; i++) console.log(people[i].name);
